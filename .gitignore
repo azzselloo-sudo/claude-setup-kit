@@ -1,0 +1,23 @@
+# 민감정보 (절대 올리지 말 것)
+.env*
+secrets*
+*.key
+*.pem
+credentials.json
+token.pickle
+
+# 데이터·빌드 산출물
+*.db
+*.sqlite*
+*.faiss
+node_modules/
+.next/
+dist/
+build/
+__pycache__/
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
